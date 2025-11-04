@@ -1,9 +1,8 @@
 #include "TouchPad.hpp"
-//==================//
 #include <IRremote.h>
-//==================//
-#define RemoteRxPin 12
+#define RemoteRxPin PA0
 keyCode_t keycode;
+
 /// @brief Call from Setup        
 void setupIR(void)
 {
