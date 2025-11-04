@@ -9,5 +9,6 @@ public:
     TouchPad();
     ~TouchPad();
     void Loop();
+    keyCode_t GetKeyCode();
 };
 #endif

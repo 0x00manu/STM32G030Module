@@ -3,6 +3,12 @@
 #define RemoteRxPin PA0
 keyCode_t keycode;
 
+keyCode_t TouchPad::GetKeyCode()
+{
+    keyCode_t temp = keycode;
+    keycode = KEY_NONE;
+    return temp;
+}
 /// @brief Call from Setup        
 void setupIR(void)
 {

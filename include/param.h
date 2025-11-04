@@ -29,6 +29,7 @@ struct SpecialInt_s
         KEY_E,
         KEY_F,
         KEY_G,
-        KEY_H
+        KEY_H,
+        KEY_NONE
     }keyCode_t;
 #endif
