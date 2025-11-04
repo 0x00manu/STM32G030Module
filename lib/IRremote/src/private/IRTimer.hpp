@@ -2167,7 +2167,8 @@ void timerConfigForReceive() {
 #  if defined(TIM4)
 HardwareTimer s50usTimer(TIM4);
 #  else
-HardwareTimer s50usTimer(TIM2);
+//HardwareTimer s50usTimer(TIM2);   //REMOVED BY MANU
+HardwareTimer s50usTimer(TIM1);     //ADDED BY MANU
 #  endif
 
 void timerEnableReceiveInterrupt() {
